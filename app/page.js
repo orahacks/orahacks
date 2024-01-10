@@ -1,9 +1,9 @@
 'use client';
 import Image from 'next/image'
 import React from 'react';
-import Navbar from './Navbar';
-import MainSection from './MainSection';
-import Footer from './Footer';
+import Navbar from './navbar';
+import MainSection from './mainsection';
+import Footer from './footer';
 
 export default function Home() {
   return (
