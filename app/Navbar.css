@@ -1,0 +1,28 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: transparent; /* Assuming a transparent navbar */
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    padding: 0 1em;
+    cursor: pointer;
+  }
+  
+  .nav-links li:hover {
+    text-decoration: underline;
+  }
+  

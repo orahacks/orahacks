@@ -25,3 +25,109 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.App {
+  text-align: center;
+  color: white;
+  background-color: #000; /* You will set a background image here */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Add background image in the CSS */
+.App {
+  background-image: url('../public/path-to-your-stars-background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Additional global styles */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: transparent; /* Assuming a transparent navbar */
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+.MainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px); /* Adjust based on your navbar height */
+  color: #fff;
+}
+
+.MainSection h1 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+.MainSection p {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.join-btn,
+.explore-btn {
+  font-size: 1em;
+  margin: 1em;
+  padding: 1em 2em;
+  color: #fff;
+  background-color: #06f; /* Adjust to match your design */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-btn:hover,
+.explore-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.dates {
+  font-size: 1.2em;
+  margin-top: 3em;
+}
+
+.Footer {
+  padding: 1em 0;
+  background: #111; /* Dark footer background */
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  background-color: #000; /* Fallback color */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Add background image in the CSS, you'll replace the URL with your assets */
+.App {
+  background: url('../public/path-to-your-stars-background.svg') center center / cover no-repeat, 
+              radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
