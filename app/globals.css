@@ -72,6 +72,7 @@ body {
   background-image: url('../public/path-to-your-stars-background.svg');
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 /* Additional global styles */
@@ -82,6 +83,29 @@ body {
   padding: 1em 2em;
   background: transparent; /* Assuming a transparent navbar */
   color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.g-4{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+ 
+}
+.judgingCriteria{
+  padding: 20px;
+}
+.cards{
+  
+  padding: 25px;
+  border-color: #06f;
+  border-radius: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  margin: 30px 15px;
+  font-size: 18px;
+  height: 100%;
+  overflow: auto;
 }
 
 .logo {
@@ -110,6 +134,23 @@ body {
   justify-content: center;
   height: calc(100vh - 60px); /* Adjust based on your navbar height */
   color: #fff;
+  /* background: url('../public/home.mp4'); */
+}
+#myVideo {
+  /** Simulationg background-size: cover */
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.landing{
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
 }
 
 .MainSection h1 {
@@ -171,5 +212,18 @@ body {
 .App {
   background: url('../public/path-to-your-stars-background.svg') center center / cover no-repeat, 
               radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+             
 }
 
+
+@media only screen and (max-width: 800px) {
+  .g-4{
+    display:grid;
+    max-width:max-content;
+   
+  }
+  .cards{
+    text-align: center;
+    width: fit-content;
+  }
+}

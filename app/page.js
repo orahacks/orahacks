@@ -8,7 +8,7 @@ import Footer from './footer';
 export default function Home() {
   return (
     <div className="App">
-    <Navbar />
+    <Navbar/>
     <MainSection />
     <Footer />
   </div>
