@@ -1,0 +1,73 @@
+.faq {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    & > .boxed {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .heading-primary {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .accordion-item {
+        background-color: transparent;
+        border: 2px solid rgba(252, 252, 252, 0.1);
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        transition: all 0.2s;
+        overflow: hidden;
+
+        &:hover {
+            border: 2px solid #7b61ff;
+        }
+    }
+
+    .accordion-heading {
+        color: #fff;
+        margin-right: 1rem;
+    }
+
+    .chakra-accordion__button {
+        background-color: transparent;
+        border: none;
+    }
+    .chakra-accordion{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .accordion-body {
+        padding: 2rem;
+        border-top: 2px solid rgba(252, 252, 252, 0.1);
+    }
+
+    .accordion-btn {
+        padding: 2rem;
+    }
+
+    .accordion-icon {
+        background-color: transparent;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        font-size: 3rem;
+        border-radius: 50%;
+        color: #7b61ff !important;
+
+        &.css-j2ph2z {
+            background-color: #7b61ff !important;
+            color: #fff !important;
+        }
+    }
+}
+
+// Media Queries
+
+@media only screen and (max-width: 768px) {
+    .faq {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}

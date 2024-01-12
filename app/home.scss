@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Source Code Pro";
+    src: url("../public/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf") format("opentype"),
+        url("../public/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf") format("truetype");
+    /* Add other font properties if needed, like font-weight and font-style */
+  }
+
+.home {
+    
+   
+    &__about {
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+
+        .boxed {
+            display: flex;
+            flex-direction: column;
+        }
+
+        & .heading-primary {
+            text-align: center;
+        }
+
+        &__container {
+            display: flex;
+            align-items: center;
+            gap: 8rem;
+            padding: 40px;
+        }
+
+        &__description {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            & > .description-set {
+                display: flex;
+                flex-direction: column;
+                gap: 0rem;
+                text-align: left;
+            }
+        }
+
+        &__illustration {
+            flex-basis: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #fff;
+            border-radius: 2rem;
+            transform: translate(2.5rem, 1rem);
+            &__img {
+                width: 100%;
+                border-radius: 2rem;
+
+                transform: translate(-2.5rem, -2rem);
+            }
+        }
+    }
+
+}
+
+// media queries for responsiveness
+// berlow 1200px
+
+@media only screen and (max-width: 1200px) {
+    .home {
+        
+
+        &__about {
+            padding-top: 12rem;
+            padding-bottom: 4rem;
+
+            .boxed {
+                gap: 8rem;
+            }
+
+            &__container {
+                flex-direction: column;
+                gap: 4rem;
+                padding: 20px;
+            }
+
+            &__description {
+                flex-basis: 100%;
+            }
+
+            &__illustration {
+                flex-basis: 100%;
+                transform: translate(0rem, 0rem);
+                &__img {
+                    transform: translate(0, 0);
+                }
+            }
+        }
+
+    }
+}
+
+// below 600px for mobile devices
+@media only screen and (max-width: 600px) {
+    .home {
+       
+
+        &__about {
+            padding-top: 8rem;
+            padding-bottom: 4rem;
+
+            .boxed {
+                gap: 4rem;
+            }
+
+            &__container {
+                flex-direction: column;
+                gap: 4rem;
+            }
+
+            &__description {
+                flex-basis: 100%;
+            }
+
+            &__illustration {
+                transform: translate(0rem, 0rem);
+                flex-basis: 100%;
+                &__img {
+                    transform: translate(0, 0);
+                }
+            }
+        }
+
+    }
+}

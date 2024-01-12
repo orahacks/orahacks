@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("../public/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf") format("opentype"),
+      url("../public/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf") format("truetype");
+  /* Add other font properties if needed, like font-weight and font-style */
+}
 .Navbar {
     display: flex;
     justify-content: space-between;

@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:regular,bold,italic&subset=latin,latin-ext'); */
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -26,12 +30,41 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.heading-primary {
+  /* H1 */
+  
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 73.983% */
+
+  @media only screen and (max-width: 600px) {
+      /* font-size: 3.6rem; */
+  }
+}
+
+.heading-secondary {
+  /* H2 */
+  
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 138.744% */
+
+  @media only screen and (max-width: 600px) {
+      /* font-size: 3rem; */
+  }
+}
+.body-regular2{
+  text-align: left;
+}
+
 .App {
   text-align: center;
   color: white;
   background-color: #000; /* You will set a background image here */
   min-height: 100vh;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Source Code Pro';
 }
 
 /* Add background image in the CSS */
@@ -130,7 +163,7 @@ body {
   text-align: center;
   background-color: #000; /* Fallback color */
   min-height: 100vh;
-  font-family: 'Arial', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
   overflow-x: hidden;
 }
 
