@@ -8,9 +8,7 @@ function Navbar() {
       <div className="logo">ORAHACKS</div>
       <ul className="nav-links">
         {/* Add your nav items here */}
-        <li>Resources</li>
-        <li>FAQs</li>
-        <li>Ideas</li>
+        <li><a href="https://linktr.ee/orahacks" target="_blank">Join Us</a></li>
       </ul>
     </nav>
   );
