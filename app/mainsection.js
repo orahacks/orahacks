@@ -58,8 +58,8 @@ const judgingCriteria2 = [
       body: "Further assess the UI and UX, design quality, user-friendliness, and identify any bugs. Consider how well the design contributes to the overall effectiveness and appeal of the project.",
   },
   {
-      heading: "Blockchain/AI implementation (15%)",
-      body: "If applicable, assess the quality of the blockchain implementation in Web3 solutions. Evaluate how well the team utilizes blockchain technology and its impact on the project's overall effectiveness.",
+      heading: "AI implementation (15%)",
+      body: "If applicable, assess the quality of AI and language models. Evaluate how well the team utilizes AI technology and its impact on the project's overall effectiveness.",
   },
   {
     heading: "Coding Proficiency (15%)",
@@ -81,7 +81,7 @@ function MainSection() {
     </video>
       <div className="landing">
       <h1>ORAHACKS CHICAGO</h1>
-      <p>WEB3 and AI</p>
+      <p>AI for Education, Public Good, and Customer Experience </p>
       {/* Replace 'button-link' with actual paths or functions */}
       <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
       <button className="explore-btn" onClick={() => openInNewTab("https://oravew.xyz/winter-is-coming-hackathon-2023-2/")}>LAST SEASON</button>
@@ -107,7 +107,7 @@ function MainSection() {
                                     Hybrid Hackathon
                                     </h2>
                                     <p className="body-regular">
-                                    We are inviting builders to unleash their creativity and problem-solving in Web3 & AI. 
+                                    We are inviting builders to unleash their creativity and problem-solving using AI language models and tools. 
                                     This is an opportunity for hands-on engagement in the complete product development process. 
                                     From ideation to creation, your pitch ideas will become realities. 
                                     You will receive invaluable mentorship, constructive feedback, and the prospect of potential funding for your products. 
@@ -123,7 +123,7 @@ function MainSection() {
                                     <strong>Innovate:</strong> Turn your ideas into reality and create solutions for pressing issues <br></br>
                                     <strong>Learn:</strong> Enhance your skills through hand-on experience and expert guidance<br></br>
                                     <strong>Have Fun:</strong> Enjoy a thrilling builder experience<br></br>
-                                    <strong>Network:</strong> Build connections with like minded talents who share passion for AI & Web3 to shape the future of the technology
+                                    <strong>Network:</strong> Build connections with like minded talents who share passion for AI to shape the future of the technology
                                     </p>
                                 </div>
                             </div>
