@@ -2,6 +2,8 @@ import React from 'react';
 import './home.scss';
 import Image from 'next/image';
 import aboutIllustration from "../public/home-about-illustration.webp";
+import pga from "../public/pga.webp";
+import win from "../public/win.webp";
 import FAQ from './FAQ';
 import Sponsors from "./Sponsors";
 import backgroundVid from "../public/home.mp4"
@@ -76,17 +78,19 @@ function MainSection() {
     <div>
     
     <div className="MainSection">
-    <video className='videoTag' autoPlay loop muted id="myVideo">
+    {/* <video className='videoTag' autoPlay loop muted id="myVideo">
     <source src={backgroundVid} type='video/mp4' />
-    </video>
+    </video> */}
       <div className="landing">
+      
       <h1>Back to the Future</h1>
-      <p>Web3, EdTech, and Creative Arts</p>
+      <p>Build for Web3, EdTech, and Creative Arts</p>
+      <p className="dates"> April 5th-7th</p>
       {/* Replace 'button-link' with actual paths or functions */}
       <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
       <button className="explore-btn" onClick={() => openInNewTab("https://oravew.xyz/winter-is-coming-hackathon-2023-2/")}>LAST SEASON</button>
       {/* Dates or any other information */}
-      <p className="dates"> March 22nd (Virtual kick off) & March 29th-31st (HACK)</p>
+     
       </div>
       
       </div>
@@ -104,10 +108,19 @@ function MainSection() {
                             <div className="home__about__description">
                                 <div className="description-set">
                                     <h2 className="heading-secondary">
-                                    Hybrid Hackathon
+                                    KICK START THE NEXT WAVE OF BUILDERS IN CHICAGO
                                     </h2>
+                                    <Image
+                                    src={win}
+                                    alt=""
+                                    className="home__about__illustration__win"
+                                />
                                     <p className="body-regular">
-                                    We are inviting builders to unleash their creativity and problem-solving using AI language models and tools. 
+                                    <strong>70+ ATTENDEES</strong><br></br>
+                                    <strong>3 DAYS, 3 TRACKS</strong><br></br>
+                                    <strong>$10,000+ IN PRIZES</strong><br></br>
+
+                                    <br></br>Unleash your creativity and problem-solving using AI, Web3, and Cloud technologies. 
                                     This is an opportunity for hands-on engagement in the complete product development process. 
                                     From ideation to creation, your pitch ideas will become realities. 
                                     You will receive invaluable mentorship, constructive feedback, and the prospect of potential funding for your products. 
@@ -115,22 +128,64 @@ function MainSection() {
                                     Let&apos;s build!
                                     </p>
                                 </div>
-                                <div className="description-set">
-                                    <h2 className="heading-secondary">
-                                    Join Us To
-                                    </h2>
-                                    <p className="body-regular2">
-                                    <strong>Innovate:</strong> Turn your ideas into reality and create solutions for pressing issues <br></br>
-                                    <strong>Learn:</strong> Enhance your skills through hand-on experience and expert guidance<br></br>
-                                    <strong>Have Fun:</strong> Enjoy a thrilling builder experience<br></br>
-                                    <strong>Network:</strong> Build connections with like minded talents who share passion for AI to shape the future of the technology
-                                    </p>
-                                </div>
                             </div>
                             
                         </div>
                     </div>
     </section>
+
+    <section className="home__about padding">
+                    <div className="boxed">
+                        <h1 className="heading-primary">Join Us To Disrupt</h1>
+                        <div className="boxed2">
+                            <div className="description-set">
+                                    <h2 className="heading-secondary">
+                                    Web3
+                                    </h2>
+                                    <p className="body-regular2">
+                                    <strong>Help shape the global financial system </strong>
+                                    </p>
+                                    <br></br>
+                                    <Image
+                                    src={pga}
+                                    alt=""
+                                    className="web3"
+                                />
+                                </div><br></br>
+                                <div className="description-set">
+                                    <h2 className="heading-secondary">
+                                    EdTech
+                                    </h2>
+                                    <p className="body-regular2">
+                                    <strong>Create more seamless and engaging educational experiences</strong>
+                                    </p>
+                                    <br></br>
+                                    <Image
+                                    src={pga}
+                                    alt=""
+                                    className="web3"
+                                />
+                                </div><br></br>
+                                <div className="description-set">
+                                    <h2 className="heading-secondary">
+                                    Creative Art
+                                    </h2>
+                                    <p className="body-regular2">
+                                    <strong>Unleash your creativity by solving pressing problems in creative ways</strong>
+                                    </p>
+                                    <br></br>
+                                    <Image
+                                    src={pga}
+                                    alt=""
+                                    className="web3"
+                                />
+                                </div>
+                               </div>
+                    </div>
+    </section>
+
+    
+
 
     <section className="home__about padding">
                     <div className="boxed">
