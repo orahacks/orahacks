@@ -194,7 +194,7 @@ function MainSection() {
                             <div className="home__about__description">
                                 <div className="description-set">
                                     <h2 className="heading-secondary">
-                                    Devs, Designers, Artists, Product Managers, Thinkers, Builders, Mentors, and Sponsors
+                                    Devs, Designers, Artists, Product Managers, <br></br>Thinkers, Builders, Mentors, and Sponsors
                                     </h2><br></br>
                                     <p className="body-regular">
                                     For young builders in Chicago, eager to chase ideas. Backed  by early stage builders and experienced operators that have scaled exceptional companies. 
