@@ -199,7 +199,7 @@ function MainSection() {
                                     <p className="body-regular">
                                     For young builders in Chicago, eager to chase ideas. Backed  by early stage builders and experienced operators that have scaled exceptional companies. 
                                     Anyone ready to level-up their hacking skills, turn pitch ideas into tangible products, or kick start the next wave of builders in Chicago is welcome to join our next adventure. 
-                                    Whether this is is day 1 or day 1000 of your journey, there&apos;s a seat for you at our table!
+                                    Whether this is day 1 or day 1000 of your journey, there&apos;s a seat for you at our table!
                                     </p><br></br>
                                     <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
                                 </div>
