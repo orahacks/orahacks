@@ -42,7 +42,7 @@ const judgingCriteria1 = [
   {
       heading:
           "Problem Definition (15%)",
-      body: "Evaluate the relevance of the solution to the challenge presented. Assess the clarity and understanding of the initial problem and whether it addresses the needs of multiple stakeholders.",
+      body: "Evaluate the relevance of the solution to the three challenges presented. Assess the clarity and understanding of the initial problem and whether it addresses the needs of multiple stakeholders.",
   },
   {
       heading: "Creativity (15%)",
@@ -136,7 +136,7 @@ function MainSection() {
 
     <section className="home__about padding">
                     <div className="boxed">
-                        <h1 className="heading-primary">Join Us To Disrupt</h1>
+                        <h1 className="heading-primary">Join us to disrupt</h1>
                         <div className="boxed2">
                             <div className="description-set">
                                     <h2 className="heading-secondary">
@@ -168,10 +168,10 @@ function MainSection() {
                                 </div><br></br>
                                 <div className="description-set">
                                     <h2 className="heading-secondary">
-                                    Creative Art
+                                    Creative Arts
                                     </h2>
                                     <p className="body-regular2">
-                                    <strong>Unleash your creativity by solving pressing problems in creative ways</strong>
+                                    <strong>Unleash creative expression, storytelling, and cultural participation</strong>
                                     </p>
                                     <br></br>
                                     <Image
@@ -188,19 +188,20 @@ function MainSection() {
 
 
     <section className="home__about padding">
-                    <div className="boxed">
+                    <div className="boxed2">
                         <h1 className="heading-primary">Ready to participate?</h1>
                         <div className="home__about__container">
                             <div className="home__about__description">
                                 <div className="description-set">
                                     <h2 className="heading-secondary">
-                                    Devs, Designers, Artists, Product Managers, Thinkers, and Builders
-                                    </h2>
+                                    Devs, Designers, Artists, Product Managers, Thinkers, Builders, Mentors, and Sponsors
+                                    </h2><br></br>
                                     <p className="body-regular">
-                                    Anyone ready to level-up their hacking skills and turn their pitch ideas into tangible products. 
-                                    We welcome all programmers, designers, artists, product people and hackers to join us for these events. 
-                                    Whether this is is day 1 or day 1000 of your hacker journey, join us!
-                                    </p>
+                                    For young builders in Chicago, eager to chase ideas. Backed  by early stage builders and experienced operators that have scaled exceptional companies. 
+                                    Anyone ready to level-up their hacking skills, turn pitch ideas into tangible products, or kick start the next wave of builders in Chicago is welcome to join our next adventure. 
+                                    Whether this is is day 1 or day 1000 of your journey, there&apos;s a seat for you at our table!
+                                    </p><br></br>
+                                    <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
                                 </div>
 
                                 

@@ -15,12 +15,13 @@
         .boxed {
             display: flex;
             flex-direction: column;
+            
         }
         .boxed2 {
             display: grid;
             justify-content: center;
             text-align: center;
-            padding: 20px;
+            padding: 40px;
 
             &__description-set{
                 justify-content: center;
