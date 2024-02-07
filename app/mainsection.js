@@ -134,6 +134,7 @@ function MainSection() {
                         </div>
                     </div>
     </section>
+    <Sponsors />
 
     <section className="home__about padding">
                     <div className="boxed">
@@ -265,7 +266,7 @@ function MainSection() {
    
 
     <FAQ faqsData={faqs} />
-    <Sponsors />
+    
     </div>
     
   );
