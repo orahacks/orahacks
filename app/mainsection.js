@@ -196,9 +196,9 @@ function MainSection() {
                         <div className="home__about__container">
                             <div className="home__about__description">
                                 <div className="description-set">
-                                    <h2 className="heading-secondary">
+                                    <h3 className="heading-secondary">
                                     Devs, Designers, Artists, Product Managers, <br></br>Thinkers, Builders, Mentors, and Sponsors
-                                    </h2><br></br>
+                                    </h3><br></br>
                                     <p className="body-regular">
                                     For young builders in Chicago, eager to chase ideas. Backed  by early stage builders and experienced operators that have scaled exceptional companies. 
                                     Anyone ready to level-up their hacking skills, turn pitch ideas into tangible products, or kick start the next wave of builders in Chicago is welcome to join our next adventure. 
