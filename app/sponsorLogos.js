@@ -2,7 +2,7 @@
 const sponsorLogos = [
     {
       company: "OraVew",
-      logo: "https://raw.githubusercontent.com/orahacks/orahacks/333cdbca2f61d20a37644d85e93cf47c3e1b23c6/public/ora.svg"
+      logo: "https://raw.githubusercontent.com/orahacks/orahacks/10fe22f6a7c3273c53259a7a8d43001fac1f0c6c/public/oravew2.svg"
     },
     {
       company: "Drive Capital",
