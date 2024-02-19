@@ -118,7 +118,7 @@ function MainSection() {
                                     <p className="body-regular">
                                     <strong>70+ ATTENDEES</strong><br></br>
                                     <strong>3 DAYS, 3 TRACKS</strong><br></br>
-                                    <strong>$10,000+ IN PRIZES</strong><br></br>
+                                    <strong>$5,000+ IN PRIZES</strong><br></br>
 
                                     <br></br>Unleash your creativity and problem-solving using AI, Web3, and Cloud technologies. 
                                     This is an opportunity for hands-on engagement in the complete product development process. 
