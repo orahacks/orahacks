@@ -84,7 +84,7 @@ function MainSection() {
       <div className="landing">
       
       <h1>Back to the Future</h1>
-      <p>Build for Web3, EdTech, and Creative Arts</p>
+      <p>Web3 and AI</p>
       <p className="dates"> April 5th-7th</p>
       {/* Replace 'button-link' with actual paths or functions */}
       <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
@@ -142,7 +142,7 @@ function MainSection() {
                         <div className="boxed2">
                             <div className="description-set">
                                     <h2 className="heading-secondary">
-                                    Web3
+                                    FinTech
                                     </h2>
                                     <p className="body-regular2">
                                     <strong>Help shape the global financial system </strong>
