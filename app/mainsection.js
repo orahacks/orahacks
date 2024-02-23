@@ -83,13 +83,13 @@ function MainSection() {
     <source src={backgroundVid} type='video/mp4' />
     </video> */}
       <div className="landing">
-      
       <h1>Back to the Future</h1>
       <p>Web3 and AI</p>
       <p className="dates"> April 5th-7th</p>
       {/* Replace 'button-link' with actual paths or functions */}
-      <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
       <button className="explore-btn" onClick={() => openInNewTab("https://oravew.xyz/winter-is-coming-hackathon-2023-2/")}>LAST SEASON</button>
+      <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
+      
       {/* Dates or any other information */}
      
       </div>
