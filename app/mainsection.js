@@ -11,6 +11,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import heroImage from "../public/heroImage.webp"
+import OraHacks from "../public/OraHacks.mp4"
 
 // import './MainSection.css'; // CSS file for MainSection styling
 
@@ -99,11 +100,15 @@ function MainSection() {
                         <h1 className="heading-primary">What is OraHacks?</h1>
                         <div className="home__about__container">
                         <div className="home__about__illustration">
-                                <Image
+                                {/* <Image
                                     src={aboutIllustration}
                                     alt=""
                                     className="home__about__illustration__img"
-                                />
+                                /> */}
+                                <video className="home__about__illustration__img" autoPlay loop muted>
+                                  <source src={OraHacks} type='video/mp4' />
+                                </video>
+
                             </div>
                             <div className="home__about__description">
                                 <div className="description-set">
