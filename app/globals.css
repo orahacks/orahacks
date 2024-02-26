@@ -20,6 +20,12 @@
   }
 }
 
+/* .landing{
+  background-image: url('../public/orahackbanner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -134,7 +140,9 @@ body {
   justify-content: center;
   height: calc(100vh - 60px); /* Adjust based on your navbar height */
   color: #fff;
-  /* background: url('../public/home.mp4'); */
+  background: url('../public/orahackbannerweb.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #myVideo {
   /** Simulationg background-size: cover */
@@ -225,5 +233,16 @@ body {
   .cards{
     text-align: center;
     width: fit-content;
+  }
+  .MainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Adjust based on your navbar height */
+    color: #fff;
+    background: url('../public/orahackbannermobile.png');
+    background-size: cover;
+  background-repeat: no-repeat;
   }
 }
