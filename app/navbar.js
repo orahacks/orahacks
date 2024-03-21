@@ -15,7 +15,7 @@ function Navbar() {
       </div>
       <ul className="nav-links">
         {/* Add your nav items here */}
-        <li><a href="https://linktr.ee/orahacks" target="_blank">Join Us</a></li>
+        <li><a href="https://www.linkedin.com/company/orahacks/" target="_blank">Join Us</a></li>
       </ul>
     </nav>
   );
