@@ -61,8 +61,8 @@ const judgingCriteria2 = [
       body: "Further assess the UI and UX, design quality, user-friendliness, and identify any bugs. Consider how well the design contributes to the overall effectiveness and appeal of the project.",
   },
   {
-      heading: "AI implementation (15%)",
-      body: "If applicable, assess the quality of AI and language models. Evaluate how well the team utilizes AI technology and its impact on the project's overall effectiveness.",
+      heading: "AI/Web3 implementation (15%)",
+      body: "If applicable, assess the quality of AI/language models or Web3 usage. Evaluate how well the team utilizes the technology and its impact on the project's overall effectiveness.",
   },
   {
     heading: "Coding Proficiency (15%)",
@@ -88,7 +88,7 @@ function MainSection() {
       <p className="dates"> April 5th-7th</p>
       {/* Replace 'button-link' with actual paths or functions */}
       <button className="explore-btn" onClick={() => openInNewTab("https://oravew.xyz/winter-is-coming-hackathon-2023-2/")}>LAST SEASON</button>
-      <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>JOIN US</button>
+      <button className="join-btn" onClick={() => openInNewTab("https://www.linkedin.com/company/orahacks/")}>JOIN US</button>
       
       {/* Dates or any other information */}
      
@@ -132,7 +132,7 @@ function MainSection() {
                                     This is not just a hackathon - it is a platform for change and progress. 
                                     Let&apos;s build!
                                     </p>
-                                    <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>Register</button>
+                                    <button className="join-btn" onClick={() => openInNewTab("https://www.linkedin.com/company/orahacks/")}>Register</button>
                                 </div>
                             </div>
                             
@@ -188,7 +188,7 @@ function MainSection() {
                                 />
                                 </div>
                                </div>
-                               <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>Choose a track</button>
+                               <button className="join-btn" onClick={() => openInNewTab("https://www.linkedin.com/company/orahacks/")}>Choose a track</button>
                     </div>
     </section>
 
@@ -209,7 +209,7 @@ function MainSection() {
                                     Anyone ready to level-up their hacking skills, turn pitch ideas into tangible products, or kick start the next wave of builders in Chicago is welcome to join our next adventure. 
                                     Whether this is day 1 or day 1000 of your journey, there&apos;s a seat for you at our table!
                                     </p><br></br>
-                                    <button className="join-btn" onClick={() => openInNewTab("https://linktr.ee/orahacks")}>Participate</button>
+                                    <button className="join-btn" onClick={() => openInNewTab("https://www.linkedin.com/company/orahacks/")}>Participate</button>
                                 </div>
 
                                 
